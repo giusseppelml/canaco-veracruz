@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/phone"
+        android:icon="@mipmap/ic_phones"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/Ubicacion"
+        android:icon="@mipmap/ic_location"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/ingresarid"
+        android:title="Ingresar"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/registrarseid"
+        android:title="Registrarse"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/perfilesid"
+        android:title="Perfil"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/logSalirOut"
+        android:title="Salir"
+        android:orderInCategory="1"
+        />
+</menu>

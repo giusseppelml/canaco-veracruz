@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragments.AclaracionesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:text="¿QUIÉNES PUEDEN AFILIARSE A" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:gravity="center"
+        android:text="CANACO SERVYTUR VERACRUZ?" />
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Toda aquella empresa formalmente constituida ante el SAT puede afiliarse a la Cámara de Comercio Servicios y Turismo de Veracruz." />
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="¿Qué otros servicios obtiene al afiliarse?"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Acceso a cursos de capacitación y certificaciones con costo diferenciado"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Acceso a programas de apoyo de Secretaría de Economía en capacitación, consultoría y adopción de tecnología."/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Facilidad de llegar a clientes potenciales a través de nuestros convenios"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="¿Qué requisitos necesito para afiliarme?"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Persona física:"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="•	Solicitud de registro (la cual es anexada en el correo electrónico)"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="•	Alta de hacienda ó Cedula fiscal."/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="•	Comprobante de Domicilio."/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="•	Credencial de Elector."/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Persona Moral (además de los anteriores)"/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="•	Acta Constitutiva."/>
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="¿Cuánto cuesta afiliarse?" />
+
+        <TextView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="La cuota de afiliación dependerá del tamaño de su empresa ya que todos los servicios son trasladables a cada persona que labore en ella, por lo cual necesitamos saber cuántos empleados trabajan con usted. Por favor le pedimos contestar el siguiente formulario para que un asesor se comunique con usted"/>
+
+        <Button
+            android:id="@+id/botonFormularioA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="15dp"
+            android:background="#ffffff"
+            android:text="Formulario"
+            android:paddingRight="110dp"
+            android:paddingLeft="100dp"
+            android:drawableLeft="@mipmap/ic_noticias_icons"/>
+
+    </LinearLayout>
+
+</ScrollView>

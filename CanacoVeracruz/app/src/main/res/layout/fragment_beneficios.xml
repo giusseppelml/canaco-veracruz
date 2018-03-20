@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".fragments.BeneficiosFragment">
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:textColor="@color/colorAccent"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:text="¿POR QUE DEBERIAS SER"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="PARTE DE NOSOTROS?"/>
+
+    <ListView
+        android:id="@+id/ListViewAfi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="#ffffff"
+        android:listSelector="@android:color/transparent"/>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/etiquetap"
+        android:title="Privado"
+        >
+        <menu>
+            <item
+                android:id="@+id/Perfil"
+                android:icon="@mipmap/ic_usuario_icons"
+                android:title="Perfil"
+                />
+
+        </menu>
+
+    </item>
+
+    <!-- group
+    android:checkableBehavior="single"
+    -->
+
+    <item
+        android:title="Menu">
+
+        <menu>
+
+            <item
+                android:id="@+id/school"
+                android:icon="@mipmap/ic_school"
+                android:title="Instituto"
+                />
+
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@mipmap/ic_appphone"
+                android:title="Creamos tu app"
+                />
+
+            <item
+                android:id="@+id/menu_afiliacion"
+                android:icon="@mipmap/ic_afiliacion_icons"
+                android:title="Afiliación"
+                />
+
+            <item
+                android:id="@+id/menu_siem"
+                android:icon="@mipmap/ic_pc"
+                android:title="Siem"
+                />
+
+            <item
+                android:id="@+id/menu_directorio"
+                android:icon="@mipmap/ic_contactanos_icon"
+                android:title="Directorio de Afiliados"
+                />
+
+            <item
+                android:id="@+id/menu_convenio"
+                android:icon="@mipmap/ic_manos_icons"
+                android:title="Convenios"
+                />
+
+            <item
+                android:id="@+id/menu_bolsa"
+                android:icon="@mipmap/ic_bolsa"
+                android:title="Bolsa de Trabajo"
+                />
+
+            <item
+                android:id="@+id/menu_turismo"
+                android:icon="@mipmap/ic_sombrilla"
+                android:title="Turismo"
+                />
+
+            <item
+                android:id="@+id/menu_contenido"
+                android:icon="@mipmap/ic_noticias_icons"
+                android:title="Noticias y Eventos"
+                />
+
+            <item
+                android:id="@+id/menu_cursos"
+                android:icon="@mipmap/ic_aula"
+                android:title="Cursos"
+                />
+
+            <item
+                android:id="@+id/menu_contactanos"
+                android:icon="@mipmap/ic_contacta_icons"
+                android:title="Contáctanos"
+                />
+
+            <item
+                android:id="@+id/menu_location"
+                android:icon="@mipmap/ic_location"
+                android:title="Ubicación"
+                />
+        </menu>
+
+    </item>
+
+    <item
+        android:title="otras opciones"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/acerca"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Acerca de"
+                />
+
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@mipmap/ic_cerrar_icons"
+                android:title="Cerrar"
+                />
+
+        </menu>
+
+    </item>
+
+</menu>

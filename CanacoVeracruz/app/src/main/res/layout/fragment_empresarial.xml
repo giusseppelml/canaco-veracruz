@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragments.EmpresarialFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="DESARROLLO EMPRESARIAL" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="A través de este departamento puede obtener acceso a programas apoyados por la Secretaría de Economía en subsidio, hemos realizado programas de Punto de venta empresas familiares, acceso a terminal móvil, comercio electrónico oficina móvil, entre otros." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/colorPrimaryText"
+            android:text="También ayudamos a nuestros afiliados en:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:text="•	Registro en el Sistema Emprendedor (portal de acceso a solicitar recursos federales del INADEM)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:text="•	Registro y soluciones de la Red de apoyo al Emprendedor (portal donde encontrarás diversas soluciones (cursos, herramientas tecnológicas), beneficios con empresas nacionales, etc.)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:text="•	Asesoria de registro de marca y apoyo en el llenado de la solicitud ante el IMPI." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:text="•	Obtención de Código de Barras." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Si necesita mayor información por favor contáctenos llenando el siguiente formulario"/>
+
+        <Button
+            android:id="@+id/botonFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="15dp"
+            android:background="#ffffff"
+            android:text="Formulario"
+            android:paddingRight="110dp"
+            android:paddingLeft="100dp"
+            android:drawableLeft="@mipmap/ic_noticias_icons"/>
+
+    </LinearLayout>
+
+</ScrollView>

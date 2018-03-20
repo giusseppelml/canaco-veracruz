@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FormularioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:weightSum="1"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_contacta_icons" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nombre Comercial: " />
+
+        <EditText
+            android:id="@+id/editTextNombreComercialEm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escriba Aqui"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nombre de contacto: " />
+
+        <EditText
+            android:id="@+id/editTextContactoEm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escriba Aqui"/>
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Número de teléfono: " />
+
+        <EditText
+            android:id="@+id/editTextTelefonoEm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escriba Aqui"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Correo electrónico: " />
+
+        <EditText
+            android:id="@+id/editTextCorreoEm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Escriba Aqui"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Razón Social: " />
+
+        <EditText
+            android:id="@+id/editTextRazonEm"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="Escriba Aqui"
+            android:layout_weight="0.42" />
+
+        <Button
+            android:id="@+id/botonEnviarEm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="15dp"
+            android:background="#ffffff"
+            android:text="ENVIAR"
+            android:paddingRight="110dp"
+            android:paddingLeft="120dp"
+            android:drawableLeft="@mipmap/ic_send_icons"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

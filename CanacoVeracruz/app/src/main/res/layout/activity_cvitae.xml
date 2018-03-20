@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="10dp"
+    tools:context=".activities.CvitaeActivity">
+
+    <TextView
+        android:id="@+id/textViewCv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:text="Nombre: " />
+
+    <EditText
+        android:id="@+id/editTextCvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Escriba Nombre Completo"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="E-Mail: " />
+
+    <EditText
+        android:id="@+id/editTextCvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Escriba Aqui"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Telefono: " />
+
+    <EditText
+        android:id="@+id/editTextCvTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Escriba Aqui"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Mensaje: " />
+
+    <EditText
+        android:id="@+id/editTextCvMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Escriba Aqui"
+        android:layout_weight="0.42" />
+
+    <Button
+        android:id="@+id/botonCvEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="15dp"
+        android:background="#ffffff"
+        android:text="CARGAR"
+        android:paddingRight="110dp"
+        android:paddingLeft="120dp"
+        android:drawableLeft="@mipmap/ic_save"/>
+
+</LinearLayout>
